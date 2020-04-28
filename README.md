@@ -2,7 +2,7 @@
 
 ![Cookies Playground](/img/CookiesPlayground.png (Cookies Playground))
 
-> A Result of boredom between Suhur and Fajr in Ramadan 🌙,&nbsp; As a playground to train in new concept for me which is cookie storing
+> A Result of boredom between Suhur and Fajr in Ramadan 🌙,&nbsp;A playground to train in new concept for me which is cookie storing
 
 ## Manual
 
