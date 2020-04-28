@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Playground</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <h1 class="text-center text-success mt-5" style="font-weight: bold;">Cookies Playground</h1>
+    <div class="container card mt-4 bg-grey">
+        <form class="m-3 set card border-0">
+            <input type="text" name="cookie" required class="pl-3" id="CName" placeholder="Cookie Name" autocomplete="off">
+            <input type="text" name="cookie" required class="pl-3" id="CContent" placeholder="Cookie Content" autocomplete="off">
+            <input type="submit" class="btn btn-primary" value="set">
+        </form>
+        <div id="output1" class="rounded mx-auto text-light text-center">&nbsp;</div>
+        <hr>
+        <form class="m-3 get card">
+            <input  type="submit" class="border-warning btn btn-warning" value="get">
+        </form>
+        <div id="output2" class="m-4 text-danger text-center">&nbsp;</div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
