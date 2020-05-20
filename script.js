@@ -4,7 +4,7 @@ document.querySelector('.get').addEventListener('submit', getCookie)
 
 
 function setCookie(e) {
-    e.preventDefault()
+    e.stopImmediatePropagation()
 
     let output1 = document.querySelector('#output1')
     let output2 = document.querySelector('#output2')
@@ -24,7 +24,7 @@ function setCookie(e) {
 
 
 function getCookie(e) {
-    e.preventDefault()
+    e.stopImmediatePropagation()
 
     let parts = document.cookie.split('; ')
 
