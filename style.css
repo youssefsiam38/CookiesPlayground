@@ -1,0 +1,7 @@
+body, body > div {
+    background-color: black;
+}
+
+.bg-grey {
+    background-color: rgb(139, 137, 146);
+}
